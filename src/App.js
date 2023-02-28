@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import HomePage from "./components/HomePage";
 
 const App = () => {
-  return (
-    <div>
-      <h1>Naishadh Chawra is Doing Some Work.</h1>
-    </div>
-  )
-}
+    return (
+        <>
+            <HomePage />
+        </>
+    );
+};
 
-export default App
+export default App;
